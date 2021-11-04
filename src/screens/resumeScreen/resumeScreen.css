@@ -1,0 +1,105 @@
+
+.card_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card_resume {
+    background: #dbdbdb;
+    border-radius: 25px;
+    box-shadow:  20px 20px 60px #bababa, -20px -20px 60px #fcfcfc;
+    height: 400px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.img_resume {
+    height: 350px;
+    width: 300px;
+}
+
+.card_img {
+    align-items: center;
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.img {
+    background-image: url('../../assets/cv.PNG');
+    background-size: 100%;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.div_link {
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    height: 360px;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    transition: all 300ms;
+    width: 300px;
+    z-index: 99;
+}
+
+.div_link:hover {
+    background-color: rgba(100, 100, 100, 0.445);
+}
+
+.div_link:hover > .link_resume > .link_resume_icon {
+    color: #1c407b;
+}
+
+.link_resume_icon {
+    color: transparent;
+    font-size: 50px;
+    position: relative;
+    transition: all 300ms;
+    z-index: 0;
+}
+
+.title_card_resume {
+    text-align: center;
+    z-index: 100;
+}
+
+.hr_vertical {
+    rotate: 180;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.div_skills {
+    width: 70%;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    font-size: 15px;
+    border-collapse: collapse;
+    text-align: left;
+    width: 300px;
+}
+
+.tr_header {
+    border-bottom: 1.3px solid rgba(177, 177, 177, 0.596);
+}
+
+.tr_skills {
+    border-bottom: 1px solid rgba(177, 177, 177, 0.596);
+}
+
+.td_skills {
+    width: 30%;
+}

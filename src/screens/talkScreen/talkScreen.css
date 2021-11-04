@@ -1,0 +1,15 @@
+.socialNetworks {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialNetworks_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div_text_talk {
+    width: 70%;
+    text-align: left;
+}
