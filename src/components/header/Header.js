@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import './header.css'
 import my_photo from '../../assets/my_photo.jpg'
+import MenuLink from '../menuLink/MenuLink'
 
 const Header = ({children}) => {
 
@@ -27,69 +28,10 @@ const Header = ({children}) => {
             
             <hr className='hr_header' />
 
-            <NavLink activeClassName="active" exact to='/' className='link'>
-              <div className='item_link'>
-                <div className='item_link_title'>
-                  <div>
-                    <i className="fas fa-user-tie icon"></i>
-                  </div>
-                  <div>
-                    <h3 className={(!navMenuOpen) ? 'link_label_close' : 'link_label' }>About me</h3>
-                  </div>
-                </div>
-                <div>
-                  <i className="fas fa-chevron-right arrow_icon"></i>
-                </div>
-              </div>
-            </NavLink>
-
-            <NavLink activeClassName="active" to='/certificates' className='link'>
-              <div className='item_link'>
-                <div className='item_link_title'>
-                  <div>
-                    <i className="fas fa-certificate icon"></i>
-                  </div>
-                  <div>
-                    <h3 className={(!navMenuOpen) ? 'link_label_close' : 'link_label' }>My certificates</h3>
-                  </div>
-                </div>
-                <div>
-                  <i className="fas fa-chevron-right arrow_icon"></i>
-                </div>
-              </div>
-            </NavLink>
-
-            <NavLink activeClassName="active" to='/resume' className='link'>
-              <div className='item_link'>
-                <div className='item_link_title'>
-                  <div>
-                    <i className="fas fa-align-justify icon"></i>
-                  </div>
-                  <div>
-                    <h3 className={(!navMenuOpen) ? 'link_label_close' : 'link_label' }>My resume</h3>
-                  </div>
-                </div>
-                <div>
-                  <i className="fas fa-chevron-right arrow_icon"></i>
-                </div>
-              </div>
-            </NavLink>
-
-            <NavLink activeClassName="active" to='/talk' className='link'>
-              <div className='item_link'>
-                <div className='item_link_title'>
-                  <div>
-                    <i className="far fa-comment-dots icon"></i>
-                  </div>
-                  <div>
-                    <h3 className={(!navMenuOpen) ? 'link_label_close' : 'link_label' }>Let's talk</h3>
-                  </div>
-                </div>
-                <div>
-                  <i className="fas fa-chevron-right arrow_icon"></i>
-                </div>
-              </div>
-            </NavLink>
+            <MenuLink Parameter='/' title='About me' icon='fas fa-user-tie' menuOpen={navMenuOpen} />
+            <MenuLink Parameter='/certificates' title='My certificates' icon='fas fa-certificate' menuOpen={navMenuOpen} />
+            <MenuLink Parameter='/resume' title='My resume' icon='fas fa-align-justify' menuOpen={navMenuOpen} />
+            <MenuLink Parameter='/talk' title="Let's talk" icon='far fa-comment-dots' menuOpen={navMenuOpen} />
 
           </div>
         </nav>
