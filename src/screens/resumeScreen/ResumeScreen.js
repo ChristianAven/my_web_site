@@ -141,7 +141,7 @@ const ResumeScreen = () => {
                                     }
                                 </tbody>
                             </table>
-                        </div>*
+                        </div> 
                         
                     </div>
                 </div>
