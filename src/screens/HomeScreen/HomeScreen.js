@@ -13,13 +13,13 @@ const HomeScreen = () => {
                 <div>
                     <div className='header_cardBody'>
                         <div>
-                            <h4><i class="fas fa-signature header_cardBody_icon"></i> Full name: Christian David Avendaño Mora</h4>
+                            <h4><i className="fas fa-signature header_cardBody_icon"></i> Full name: Christian David Avendaño Mora</h4>
                         </div>
                         <div>
-                            <h4>&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-birthday-cake header_cardBody_icon"></i> Date of birth: 2001-05-8</h4>
+                            <h4>&nbsp;&nbsp;&nbsp;&nbsp; <i className="fas fa-birthday-cake header_cardBody_icon"></i> Date of birth: 2001-05-8</h4>
                         </div>
                         <div>
-                            <h4>&nbsp;&nbsp;&nbsp;&nbsp; <i class="far fa-flag header_cardBody_icon"></i> Nationality: Spanish - Colombian</h4>
+                            <h4>&nbsp;&nbsp;&nbsp;&nbsp; <i className="far fa-flag header_cardBody_icon"></i> Nationality: Spanish - Colombian</h4>
                         </div>
                     </div>
                     <p><strong>»</strong> Hello! I am a systems engineer and I focus on frontend development with good knowledge in backend development.</p>

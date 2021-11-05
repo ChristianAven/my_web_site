@@ -5,7 +5,7 @@ const CardHeader = ({icon, title}) => {
         <div>
             <div className='div_title'>
                 <div>
-                    <i class={`${icon} icon_title`}></i>
+                    <i className={`${icon} icon_title`}></i>
                 </div>
                 <div>
                     <h2 className='title_page'>{title}</h2>

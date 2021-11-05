@@ -11,7 +11,7 @@ const TalkScreen = () => {
 
                     <div className='socialNetworks_item'>
                         <div>
-                            <a className='link_linkedin' href='https://www.linkedin.com/in/chris-aven/' target='_blank' rel="noreferrer"  ><i class="fab fa-linkedin"></i></a>
+                            <a className='link_linkedin' href='https://www.linkedin.com/in/chris-aven/' target='_blank' rel="noreferrer"  ><i className="fab fa-linkedin"></i></a>
                         </div>
                         <div>
                             <p>Christian David Avendaño Mora</p>
@@ -20,7 +20,7 @@ const TalkScreen = () => {
 
                     <div className='socialNetworks_item'>
                         <div>
-                            <a className='link_github' href='https://github.com/ChristianAven' target='_blank' rel="noreferrer" ><i class="fab fa-github"></i></a>
+                            <a className='link_github' href='https://github.com/ChristianAven' target='_blank' rel="noreferrer" ><i className="fab fa-github"></i></a>
                         </div>
                         <div>
                             <p>ChristianAven</p>
@@ -29,7 +29,7 @@ const TalkScreen = () => {
 
                     <div className='socialNetworks_item'>
                         <div>
-                            <a className='link_instagram' href='https://www.instagram.com/avenm_/?hl=es' target='_blank' rel="noreferrer" ><i class="fab fa-instagram"></i></a>
+                            <a className='link_instagram' href='https://www.instagram.com/avenm_/?hl=es' target='_blank' rel="noreferrer" ><i className="fab fa-instagram"></i></a>
                         </div>
                         <div>
                             <p>avenm_</p>
@@ -38,7 +38,7 @@ const TalkScreen = () => {
 
                     <div className='socialNetworks_item'>
                         <div>
-                            <a className='link_twiter' href='https://twitter.com/AVENNM_' target='_blank' rel="noreferrer" ><i class="fab fa-twitter"></i></a>
+                            <a className='link_twiter' href='https://twitter.com/AVENNM_' target='_blank' rel="noreferrer" ><i className="fab fa-twitter"></i></a>
                         </div>
                         <div>
                             <p>AVENNM_</p>
@@ -47,7 +47,7 @@ const TalkScreen = () => {
 
                     <div className='socialNetworks_item'>
                         <div>
-                            <a className='link_mail' href='mailto:chrisavendano0508gmail.com' target='_blank' rel="noreferrer" ><i class="far fa-envelope"></i></a>
+                            <a className='link_mail' href='mailto:chrisavendano0508gmail.com' target='_blank' rel="noreferrer" ><i className="far fa-envelope"></i></a>
                         </div>
                         <div>
                             <p>chrisavendano0508gmail.com</p>

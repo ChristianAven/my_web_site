@@ -4,7 +4,6 @@ import resume from '../../assets/cv.PNG'
 import './resumeScreen.css'
 
 const ResumeScreen = () => {
-
     const skills = [
         {
             name: "React JS",
@@ -104,37 +103,45 @@ const ResumeScreen = () => {
                     <div className='tables'>
                         <div>
                             <table>
-                                <tr className='tr_header'>
-                                    <th>Name</th>
-                                    <th>Year</th>
-                                </tr>
-                                {
-                                    data_first_half.map(({name, year}) => (
-                                        <tr className='tr_skills'>
-                                            <td className='td_skills'>{name}</td>
-                                            <td className='td_skills'>{year}</td>
-                                        </tr>
-                                    ))
-                                }
+                                <thead>
+                                    <tr className='tr_header'>
+                                        <th>Name</th>
+                                        <th>Year</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {
+                                        data_first_half.map(({name, year}) => (
+                                            <tr className='tr_skills'>
+                                                <td className='td_skills'>{name}</td>
+                                                <td className='td_skills'>{year}</td>
+                                            </tr>
+                                        ))
+                                    }
+                                </tbody>
                             </table>
                         </div>
 
                         <div>
                             <table>
-                                <tr className='tr_header'>
-                                    <th>Name</th>
-                                    <th>Year</th>
-                                </tr>
-                                {
-                                    data_second_half.map(({name, year}) => (
-                                        <tr className='tr_skills'>
-                                            <td className='td_skills'>{name}</td>
-                                            <td className='td_skills'>{year}</td>
-                                        </tr>
-                                    ))
-                                }
+                                <thead>
+                                    <tr className='tr_header'>
+                                        <th>Name</th>
+                                        <th>Year</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {
+                                        data_second_half.map(({name, year}) => (
+                                            <tr className='tr_skills'>
+                                                <td className='td_skills'>{name}</td>
+                                                <td className='td_skills'>{year}</td>
+                                            </tr>
+                                        ))
+                                    }
+                                </tbody>
                             </table>
-                        </div>
+                        </div>*
                         
                     </div>
                 </div>

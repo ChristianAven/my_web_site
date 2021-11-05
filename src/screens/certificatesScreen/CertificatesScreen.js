@@ -57,7 +57,7 @@ const CertificatesScreen = () => {
                                     <h3>{name}</h3>
                                 </div>
                                 <div className='div_download'>
-                                    <a href={img} download><i class="fas fa-download download_icon"></i></a>
+                                    <a href={img} download><i className="fas fa-download download_icon"></i></a>
                                 </div>
                             </div>
                         </div>

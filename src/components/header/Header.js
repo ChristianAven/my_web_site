@@ -31,14 +31,14 @@ const Header = ({children}) => {
               <div className='item_link'>
                 <div className='item_link_title'>
                   <div>
-                    <i class="fas fa-user-tie icon"></i>
+                    <i className="fas fa-user-tie icon"></i>
                   </div>
                   <div>
                     <h3 className={(!navMenuOpen) ? 'link_label_close' : 'link_label' }>About me</h3>
                   </div>
                 </div>
                 <div>
-                  <i class="fas fa-chevron-right arrow_icon"></i>
+                  <i className="fas fa-chevron-right arrow_icon"></i>
                 </div>
               </div>
             </NavLink>
@@ -47,14 +47,14 @@ const Header = ({children}) => {
               <div className='item_link'>
                 <div className='item_link_title'>
                   <div>
-                    <i class="fas fa-certificate icon"></i>
+                    <i className="fas fa-certificate icon"></i>
                   </div>
                   <div>
                     <h3 className={(!navMenuOpen) ? 'link_label_close' : 'link_label' }>My certificates</h3>
                   </div>
                 </div>
                 <div>
-                  <i class="fas fa-chevron-right arrow_icon"></i>
+                  <i className="fas fa-chevron-right arrow_icon"></i>
                 </div>
               </div>
             </NavLink>
@@ -63,14 +63,14 @@ const Header = ({children}) => {
               <div className='item_link'>
                 <div className='item_link_title'>
                   <div>
-                    <i class="fas fa-align-justify icon"></i>
+                    <i className="fas fa-align-justify icon"></i>
                   </div>
                   <div>
                     <h3 className={(!navMenuOpen) ? 'link_label_close' : 'link_label' }>My resume</h3>
                   </div>
                 </div>
                 <div>
-                  <i class="fas fa-chevron-right arrow_icon"></i>
+                  <i className="fas fa-chevron-right arrow_icon"></i>
                 </div>
               </div>
             </NavLink>
@@ -79,14 +79,14 @@ const Header = ({children}) => {
               <div className='item_link'>
                 <div className='item_link_title'>
                   <div>
-                    <i class="far fa-comment-dots icon"></i>
+                    <i className="far fa-comment-dots icon"></i>
                   </div>
                   <div>
                     <h3 className={(!navMenuOpen) ? 'link_label_close' : 'link_label' }>Let's talk</h3>
                   </div>
                 </div>
                 <div>
-                  <i class="fas fa-chevron-right arrow_icon"></i>
+                  <i className="fas fa-chevron-right arrow_icon"></i>
                 </div>
               </div>
             </NavLink>
@@ -101,7 +101,7 @@ const Header = ({children}) => {
                 id="handleX"
                 onClick={changeWidthNav}
               >
-                <i class={(!navMenuOpen) ? "fas fa-arrow-right menu_icon_open" : "fas fa-arrow-right menu_icon_close"}></i>
+                <i className={(!navMenuOpen) ? "fas fa-arrow-right menu_icon_open" : "fas fa-arrow-right menu_icon_close"}></i>
               </button>
             </div>
             <div className='div_portfolio'>
