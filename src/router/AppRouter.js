@@ -7,6 +7,7 @@ import {
 import Header from "../components/header/Header";
 import CertificatesScreen from "../screens/certificatesScreen/CertificatesScreen";
 import HomeScreen from "../screens/HomeScreen/HomeScreen";
+import ProjectsScreen from "../screens/projectsScreen/ProjectsScreen";
 import ResumeScreen from "../screens/resumeScreen/ResumeScreen";
 import TalkScreen from "../screens/talkScreen/TalkScreen";
 
@@ -23,6 +24,9 @@ const AppRouter = () => {
           </Route>
           <Route path="/resume">
             <ResumeScreen />
+          </Route>
+          <Route path="/projects">
+            <ProjectsScreen />
           </Route>
           <Route path="/talk">
             <TalkScreen />
