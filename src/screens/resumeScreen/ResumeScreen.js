@@ -4,7 +4,20 @@ import resume from '../../assets/cv.PNG'
 import './resumeScreen.css'
 
 const ResumeScreen = () => {
+    
     const skills = [
+        {
+            name: "React Native",
+            year: "2021"
+        },
+        {
+            name: "Scrum",
+            year: "2021"
+        },
+        {
+            name: "Redux",
+            year: "2020"
+        },
         {
             name: "React JS",
             year: "2020"
@@ -14,12 +27,12 @@ const ResumeScreen = () => {
             year: "2020"
         },
         {
-            name: "Mongo DB",
-            year: "2019"
+            name: "C#",
+            year: "2020"
         },
         {
-            name: "React Native",
-            year: "2021"
+            name: "Mongo DB",
+            year: "2019"
         },
         {
             name: "Git-GitHub",
@@ -34,49 +47,32 @@ const ResumeScreen = () => {
             year: "2019"
         },
         {
-            name: "POO",
-            year: "2018"
-        },
-        {
-            name: "Scrum",
-            year: "2021"
-        },
-        {
-            name: "CSS",
-            year: "2018"
-        },
-        {
-            name: "HTML",
-            year: "2017"
-        },
-        {
-            name: "JavaScript",
-            year: "2018"
-        },
-        {
             name: "Java",
             year: "2019"
-        },
-        {
-            name: "C#",
-            year: "2020"
         },
         {
             name: "Python",
             year: "2019"
         },
         {
-            name: "SQL",
-            year: "2020"
+            name: "POO",
+            year: "2018"
         },
         {
-            name: "Redux",
-            year: "2020"
+            name: "CSS",
+            year: "2018"
+        },
+        {
+            name: "JavaScript",
+            year: "2018"
+        },
+        {
+            name: "HTML",
+            year: "2017"
         },
     ]
 
-    const data_first_half = skills.splice(0, (skills.length / 2));
-    const data_second_half = skills.splice(0, skills.length);
+    const data_first_half = skills.splice(0, (skills.length));
 
     return (
         <div className='animate__animated animate__zoomIn card'>
@@ -112,7 +108,7 @@ const ResumeScreen = () => {
                                 <tbody>
                                     {
                                         data_first_half.map(({name, year}) => (
-                                            <tr className='tr_skills'>
+                                            <tr key={name + year} className='tr_skills'>
                                                 <td className='td_skills'>{name}</td>
                                                 <td className='td_skills'>{year}</td>
                                             </tr>
@@ -122,7 +118,7 @@ const ResumeScreen = () => {
                             </table>
                         </div>
 
-                        <div>
+                        {/* <div>
                             <table>
                                 <thead>
                                     <tr className='tr_header'>
@@ -141,7 +137,7 @@ const ResumeScreen = () => {
                                     }
                                 </tbody>
                             </table>
-                        </div> 
+                        </div>  */}
                         
                     </div>
                 </div>

@@ -82,7 +82,7 @@
 
 .tables {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 table {
