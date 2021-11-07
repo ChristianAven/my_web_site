@@ -1,0 +1,131 @@
+@media (max-width: 1300px) {
+    .card_certificate {
+        margin-left: 0%;
+    }
+
+    .tables {
+        flex-direction: column;
+    }
+
+    table {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 1214px) {
+    .header_cardBody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    i.fas.fa-birthday-cake.header_cardBody_icon {
+        margin-left: -20px;
+    }
+
+    i.far.fa-flag.header_cardBody_icon {
+        margin-left: -20px;
+    }
+}
+
+
+@media (max-width: 1204px) {
+    .certificates {
+        justify-content: space-between;
+        margin-left: 5px;
+    }
+    
+    .card_certificate {
+        height: 240px;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 10px;
+        width: 210px;
+    }
+}
+
+@media (max-width: 1204px) {
+    .card_certificate {
+        width: 270px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .table_projects {
+        width: 100%;
+    }
+    
+    .certificates {
+        justify-content: center;
+    }
+    
+    .hr_vertical {
+        display: none;
+    }
+    
+    .div_skills {
+        display: none;
+    }
+    
+    .div_text_talk {
+        width: 70%;
+        text-align: left;
+        margin-left: 100px;
+    }
+    
+    .contact_linkedin {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .card_resume {
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .div_text_talk {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .navOpen {
+        width: 280px;
+    }
+}
+
+@media (max-width: 600px) {
+    .th_technology {
+        display: none;
+    }
+    
+    .th_date {
+        display: none;
+    }
+    
+    .td_technology {
+        display: none;
+    }
+    
+    .td_date {
+        display: none;
+    }
+    
+    .card_resume {
+        width: 230px;
+    }
+}
+
+@media (max-width: 500px) {
+    .name {
+        display: none;
+    }
+
+    .navOpen {
+        width: 200px;
+    }
+
+    .handle_button {
+        display: none;
+    }
+}

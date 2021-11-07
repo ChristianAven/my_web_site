@@ -75,20 +75,20 @@ const ProjectsScreen = () => {
                 <table className='table_projects'>
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Technology</th>
-                            <th>Date</th>
-                            <th>Repository GitHub</th>
+                            <th className='th_name'>Name</th>
+                            <th className='th_technology'>Technology</th>
+                            <th className='th_date'>Date</th>
+                            <th className='th_repository'>Repository GitHub</th>
                         </tr>
                     </thead>
                     <tbody>
                         {
                             projects.map(({name, technology, date, repository}) => (
                                 <tr key={name+technology} className='tr_project'>
-                                    <td><a href={repository} className='name_link'>{name}</a></td>
-                                    <td>{technology}</td>
-                                    <td>{date}</td>
-                                    <td><div className='div_repository_icon'><a href={repository}><i className="far fa-share-square repository_icon"></i></a></div></td>
+                                    <td className='td_name'><a href={repository} className='name_link'>{name}</a></td>
+                                    <td className='td_technology'>{technology}</td>
+                                    <td className='td_date'>{date}</td>
+                                    <td className='td_repository'><div className='div_repository_icon'><a href={repository}><i className="far fa-share-square repository_icon"></i></a></div></td>
                                 </tr>
                             ))
                         }
