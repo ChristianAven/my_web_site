@@ -84,7 +84,7 @@ const ProjectsScreen = () => {
                     <tbody>
                         {
                             projects.map(({name, technology, date, repository}) => (
-                                <tr className='tr_project'>
+                                <tr key={name+technology} className='tr_project'>
                                     <td><a href={repository} className='name_link'>{name}</a></td>
                                     <td>{technology}</td>
                                     <td>{date}</td>
