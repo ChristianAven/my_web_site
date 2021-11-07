@@ -6,7 +6,7 @@ import MenuLink from '../menuLink/MenuLink'
 
 const Header = ({children}) => {
 
-    const [navMenuOpen, setNavMenuOpen] = useState(true);  
+    const [navMenuOpen, setNavMenuOpen] = useState(false);  
 
     const changeWidthNav = () => {
         setNavMenuOpen(!navMenuOpen);
