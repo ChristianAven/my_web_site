@@ -30,7 +30,7 @@ const NowScreen = () => {
                         contentStyle={{ background: 'white', color: 'black', border: '3px solid rgb(33, 150, 243)' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2022/January - 2022/May"
-                        icon={<i class="fab fa-docker"></i>}
+                        icon={<i className="fab fa-docker"></i>}
                         iconStyle={{ color: 'black', border: '3px solid #0a66c2', backgroundColor: 'white' }}
                         iconClassName={"icon_element"}
                         >
@@ -44,7 +44,7 @@ const NowScreen = () => {
                         contentStyle={{ background: 'white', color: 'black', border: '3px solid rgb(33, 150, 243)' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2022/June - 2022/December"
-                        icon={<i class="fab fa-aws"></i>}
+                        icon={<i className="fab fa-aws"></i>}
                         iconStyle={{ color: 'black', border: '3px solid #0a66c2', backgroundColor: 'white' }}
                         iconClassName={"icon_element"}
                     >
@@ -58,7 +58,7 @@ const NowScreen = () => {
                         contentStyle={{ background: 'white', color: 'black', border: '3px solid rgb(33, 150, 243)' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="2023/January - 2023/June"
-                        icon={<i class="fab fa-java"></i>}
+                        icon={<i className="fab fa-java"></i>}
                         iconStyle={{ color: 'black', border: '3px solid #0a66c2', backgroundColor: 'white' }}
                         iconClassName={"icon_element"}
                         >

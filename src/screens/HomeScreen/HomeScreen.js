@@ -29,8 +29,8 @@ const HomeScreen = () => {
                 </div>
                 <div className='contact_linkedin'>
                     <h4>More information in:</h4>
-                    <a className='link_linkedin' href='https://www.linkedin.com/in/chris-aven/' target='_blank' rel="noreferrer"  ><i class="fab fa-linkedin"></i></a>
-                    <a className='link_github' href='https://github.com/ChristianAven' target='_blank' rel="noreferrer" ><i class="fab fa-github"></i></a>
+                    <a className='link_linkedin' href='https://www.linkedin.com/in/chris-aven/' target='_blank' rel="noreferrer"  ><i className="fab fa-linkedin"></i></a>
+                    <a className='link_github' href='https://github.com/ChristianAven' target='_blank' rel="noreferrer" ><i className="fab fa-github"></i></a>
                 </div>
             
             </div>
