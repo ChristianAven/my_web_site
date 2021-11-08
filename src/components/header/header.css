@@ -90,7 +90,7 @@
 .icon {
     color: white;
     font-size: 30px;
-    margin: 0px 7px 0px 7px;
+    margin: 0px 0px 0px 10px;
 }
 
 .link_label {
@@ -161,8 +161,6 @@
     background-color: #0c57c7;
     border-radius: 10px;
 }
-
-
 
 .img_my_photo {
     width: 35px;
