@@ -19,7 +19,7 @@ const ResumeScreen = () => {
                         <div className='card_img'>
                             <div className='img' />
                             <div className='div_link'>
-                                <a className='link_resume' href={resume} download><i class="fas fa-download link_resume_icon"></i></a>
+                                <a className='link_resume' href={resume} download><i className="fas fa-download link_resume_icon"></i></a>
                             </div>
                         </div>
                         <h2 className='title_card_resume'>My resume</h2>
