@@ -41,7 +41,7 @@ const NowScreen = () => {
                         date={"2023/January - 2023/June"} 
                         icon={<i className="fab fa-java"></i>} 
                         subTitle="With certificate"
-                        title="Master in JAVA*"
+                        title="Master in JAVA"
                         textBody="Java EE 9, CDI, JPA, EJB, Web and more"
                     />
 
