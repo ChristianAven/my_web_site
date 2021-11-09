@@ -13,7 +13,7 @@ const HomeScreen = () => {
                 <div>
                     <div className='header_cardBody'>
                         <div>
-                            <h4><i className="fas fa-signature header_cardBody_icon"></i> Full name: Christian David Avendaño Mora</h4>
+                            <h4 translate="no"><i className="fas fa-signature header_cardBody_icon"></i> Full name: Christian David Avendaño Mora</h4>
                         </div>
                         <div>
                             <h4>&nbsp;&nbsp;&nbsp;&nbsp; <i className="fas fa-birthday-cake header_cardBody_icon"></i> Date of birth: 2001-05-8</h4>

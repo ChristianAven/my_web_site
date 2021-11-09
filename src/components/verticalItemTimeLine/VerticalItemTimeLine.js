@@ -12,7 +12,7 @@ const VerticalItemTimeLine = ({ date, icon, title, subTitle, textBody }) => {
             icon={icon}
             iconClassName={"icon_element"}
             >
-            <h3 className="vertical-timeline-element-title">{title}</h3>
+            <h3 translate="no" className="vertical-timeline-element-title">{title}</h3>
             <h4 className="vertical-timeline-element-subtitle">{subTitle}</h4>
             <p>
             {textBody}

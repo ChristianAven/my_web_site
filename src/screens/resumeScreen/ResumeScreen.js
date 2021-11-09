@@ -43,7 +43,7 @@ const ResumeScreen = () => {
                                     {
                                         skills.map(({name, year}) => (
                                             <tr key={name + year} className='tr_skills'>
-                                                <td className='td_skills'>{name}</td>
+                                                <td translate="no" className='td_skills'>{name}</td>
                                                 <td className='td_skills'>{year}</td>
                                             </tr>
                                         ))
