@@ -10,7 +10,7 @@ const NowScreen = () => {
             <CardHeader icon='fas fa-user-tie' title='What am I doing now?'/>
 
             <div>
-                <VerticalTimeline lineColor='#bcbcbc' >
+                <VerticalTimeline lineColor='#0a66c2' >
                     <VerticalTimelineElement
                         contentStyle={{ background: 'white', color: 'black', border: '3px solid rgb(33, 150, 243)' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
