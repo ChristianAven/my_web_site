@@ -1,0 +1,8 @@
+.card_fondo_home {
+    background-color: rgba(0,0,0,0.8);
+    background-image:url('../../assets/imgFondo.jpg');
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+    filter:brightness(0.5);
+}
