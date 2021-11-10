@@ -14,40 +14,9 @@
     align-items: center;
 }
 
-.card_iten_nav {
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 25%;
-    height: 25%;
-    background-color: rgba(255, 255, 255, 0.219);
-    backdrop-filter: blur(1.5rem);
-    border-radius: 15px;
-    filter:brightness(1);
-    text-decoration: none;
-}
 
-.card_icon_nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    top: -50px;
-    border-radius: 100%;
-}
 
-.card_title_nav {
-    position: relative;
-    bottom: 30px;
-    color: white;
-    text-align: center;
-}
 
-.icon_homeScreen {
-    color: #1c407b;
-    font-size: 50px;
-    align-self: center;
-}
+
+
+
