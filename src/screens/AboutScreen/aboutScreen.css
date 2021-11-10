@@ -1,0 +1,45 @@
+
+
+.div_title {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+.icon_title {
+    color: #1c407b;
+    font-size: 30px;
+}
+
+.title_page {
+    align-self: center;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.hr_title {
+    margin: 10px 15px 0px 15px;
+}
+
+.card_body {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 20px;
+}
+
+.header_cardBody {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_cardBody_icon {
+    color: #1c407b;
+}
+
+.contact_linkedin {
+    position: absolute;
+    bottom: 20px;
+}
+

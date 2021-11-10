@@ -28,7 +28,8 @@ const Header = ({children}) => {
             
             <hr className='hr_header' />
 
-            <MenuLink Parameter='/'             title='About me'             icon='fas fa-user-tie'       menuOpen={navMenuOpen} />
+            <MenuLink Parameter='/'             title='Home'                 icon='fas fa-home'           menuOpen={navMenuOpen} />
+            <MenuLink Parameter='/about'        title='About me'             icon='fas fa-user-tie'       menuOpen={navMenuOpen} />
             <MenuLink Parameter='/projects'     title='My projects'          icon='fas fa-clipboard-list' menuOpen={navMenuOpen} />
             <MenuLink Parameter='/certificates' title='My certificates'      icon='fas fa-certificate'    menuOpen={navMenuOpen} />
             <MenuLink Parameter='/resume'       title='My resume'            icon='fas fa-align-justify'  menuOpen={navMenuOpen} />

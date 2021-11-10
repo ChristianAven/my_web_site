@@ -6,11 +6,12 @@ import {
 } from "react-router-dom";
 import Header from "../components/header/Header";
 import CertificatesScreen from "../screens/certificatesScreen/CertificatesScreen";
-import HomeScreen from "../screens/HomeScreen/HomeScreen";
+import AboutScreen from "../screens/AboutScreen/AboutScreen";
 import NowScreen from "../screens/nowScreen/NowScreen";
 import ProjectsScreen from "../screens/projectsScreen/ProjectsScreen";
 import ResumeScreen from "../screens/resumeScreen/ResumeScreen";
 import TalkScreen from "../screens/talkScreen/TalkScreen";
+import HomeScreen from "../screens/homeScreen/HomeScreen";
 
 const AppRouter = () => {
 
@@ -20,6 +21,9 @@ const AppRouter = () => {
       <Header>
         
         <Switch>
+          <Route path="/about">
+            <AboutScreen />
+          </Route>
           <Route path="/certificates">
             <CertificatesScreen />
           </Route>
