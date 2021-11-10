@@ -1,6 +1,6 @@
 const navLinks = [
     {
-        parameter: '/Parameter',
+        parameter: '/about',
         icon: 'fas fa-user-tie',
         title: 'About me'
     },
