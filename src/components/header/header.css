@@ -135,9 +135,11 @@
 }
 
 .div_portfolio {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     margin-right: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 .header_body {
