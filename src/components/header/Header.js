@@ -50,7 +50,7 @@ const Header = ({children}) => {
               </button>
             </div>
             <div className='div_portfolio'>
-              <h2>Christian David Avendaño</h2>
+              <h2>Christian David Avendaño Mora</h2>
             </div>
           </header>
           <div>
