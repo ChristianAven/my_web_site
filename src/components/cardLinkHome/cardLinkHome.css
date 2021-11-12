@@ -1,13 +1,13 @@
 .card_iten_nav {
+    backdrop-filter: blur(5px);
+    background-color: rgba(141, 141, 141, 0.219);
+    border-radius: 15px;
+    height: 28%;
     margin-left: 20px;
     margin-right: 20px;
-    width: 28%;
-    height: 28%;
-    background-color: rgba(204, 204, 204, 0.219);
-    backdrop-filter: blur(5px);
-    border-radius: 15px;
     text-decoration: none;
     transition: all 500ms;
+    width: 28%;
 }
 
 .card_iten_nav:hover {
@@ -23,31 +23,31 @@
 }
 
 .card_icon_nav {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    position: relative;
     background-color: white;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    top: -50px;
     border-radius: 100%;
     border: 1px solid rgba(163, 163, 163, 0.253);
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    width: 100px;
 
 }
 
 .icon_homeScreen {
+    align-self: center;
     color: #1c407b;
     font-size: 50px;
-    align-self: center;
     transition: all 500ms;
 }
 
 .card_title_nav {
-    position: relative;
     bottom: 30px;
     color: white;
+    position: relative;
     text-align: center;
 }
 
