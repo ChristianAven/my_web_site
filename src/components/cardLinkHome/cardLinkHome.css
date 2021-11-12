@@ -15,7 +15,7 @@
     backdrop-filter: blur(15px);
 }
 .card_iten_nav:hover > .card_icon_nav > div > .icon_homeScreen {
-    transform: rotate(360deg);
+    font-size: 60px;
 }
 
 .card_iten_nav:hover > .card_title_nav > h2 {
