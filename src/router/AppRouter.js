@@ -11,7 +11,7 @@ import NowScreen from "../screens/nowScreen/NowScreen";
 import ProjectsScreen from "../screens/projectsScreen/ProjectsScreen";
 import ResumeScreen from "../screens/resumeScreen/ResumeScreen";
 import TalkScreen from "../screens/talkScreen/TalkScreen";
-import HomeScreen from "../screens/homeScreen/HomeScreen";
+import HomeScreen from "../screens/HomeScreen/HomeScreen";
 
 const AppRouter = () => {
 
