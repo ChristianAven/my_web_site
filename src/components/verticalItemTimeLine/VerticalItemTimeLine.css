@@ -1,0 +1,11 @@
+.date_element {
+    color: black;
+}
+
+.icon_element {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+} 

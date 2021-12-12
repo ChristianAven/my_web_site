@@ -1,5 +1,6 @@
 import React from 'react'
 import { VerticalTimelineElement } from 'react-vertical-timeline-component'
+import './VerticalItemTimeLine.css'
 
 const VerticalItemTimeLine = ({ date, icon, title, subTitle, textBody }) => {
     return (

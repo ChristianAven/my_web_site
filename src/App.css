@@ -1,7 +1,7 @@
 
 
 .card {
-    background-color: white;
+    background-color: var(--card-bg);
     border-radius: 5px;
     height: calc(100vh - 80px);
     margin: 10px;
@@ -11,30 +11,29 @@
 .link_linkedin {
     font-size: 30px;
     color: #0a66c2;
-    margin-right: 15px;
+    margin-right: var(--color-link-link_linkedin);
 }
 
 .link_github {
     font-size: 30px;
-    color: #1b1e23;
+    color: var(--color-link-github);
     margin-right: 15px;
 }
 
 .link_twiter {
     font-size: 30px;
-    color: #1d9bf0;
+    color: var(--color-link-twiter);
     margin-right: 15px;
 }
 
 .link_mail {
     font-size: 30px;
-    color: #e34133;
+    color: var(--color-link-mail);
     margin-right: 15px;
 }
 
 .link_instagram {
     font-size: 30px;
-    color: #c734a0;
+    color: var(--color-link-instagram);
     margin-right: 15px;
-
 }

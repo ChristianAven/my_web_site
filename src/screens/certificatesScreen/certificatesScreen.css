@@ -14,9 +14,9 @@
 
 .card_certificate {
     align-items: center;
-    background: #ffffff;
+    background: var(--card-bg);
     border-radius: 21px;
-    box-shadow:  6px 6px 6px #bdbdbd, -6px -6px 6px #ffffff;
+    box-shadow:  6px 6px 6px var(--color-shodow-primary), -6px -6px 6px var(--color-shodow-secondary);
     display: flex;
     flex-direction: column;
     height: 250px;
@@ -44,10 +44,10 @@
 }
 
 .download_icon {
-    color: rgb(68, 68, 68);
+    color: var( --color-icon-download);
     font-size: 20px;
 }
 
 .div_download:hover {
-    background-color: #d1d1d185;
+    background-color: var(--color-icon-download-containe);
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import './cardHeader.css'
 
 const CardHeader = ({icon, title}) => {
     return (

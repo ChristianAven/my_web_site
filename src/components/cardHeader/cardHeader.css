@@ -1,0 +1,22 @@
+.div_title {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+.icon_title {
+    color: var(--color-icon-primary);
+    font-size: 30px;
+}
+
+.title_page {
+    align-self: center;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.hr_title {
+    margin: 10px 15px 0px 15px;
+}

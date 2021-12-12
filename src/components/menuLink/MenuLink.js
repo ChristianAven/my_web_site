@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import './menuLink.css'
 
 const MenuLink = ({Parameter, title, icon, menuOpen}) => {
     return (

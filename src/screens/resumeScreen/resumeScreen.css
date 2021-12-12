@@ -6,9 +6,9 @@
 }
 
 .card_resume {
-    background: #dbdbdb;
+    background: var(--card-bg);
     border-radius: 25px;
-    box-shadow:  20px 20px 60px #bababa, -20px -20px 60px #fcfcfc;
+    box-shadow:  20px 20px 60px var(--color-shodow-primary), -20px -20px 60px var(--color-shodow-secondary);
     height: 400px;
     overflow: hidden;
     width: 300px;
@@ -50,11 +50,11 @@
 }
 
 .div_link:hover {
-    background-color: rgba(100, 100, 100, 0.445);
+    background-color: var(--color-icon-download-container);
 }
 
 .div_link:hover > .link_resume > .link_resume_icon {
-    color: #1c407b;
+    color: var(--color-primary);
 }
 
 .link_resume_icon {
@@ -93,11 +93,11 @@ table {
 }
 
 .tr_header {
-    border-bottom: 1.3px solid rgba(177, 177, 177, 0.596);
+    border-bottom: 1.3px solid var(--color-border-table);
 }
 
 .tr_skills {
-    border-bottom: 1px solid rgba(177, 177, 177, 0.596);
+    border-bottom: 1px solid var(--color-border-table);
 }
 
 .td_skills {

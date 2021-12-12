@@ -14,7 +14,7 @@
     "react-vertical-timeline-component": "^3.5.2",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://christianaven.github.io/My-portfolio/",
+  "homepage": "https://christianaven.github.io/",
   "scripts": {
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

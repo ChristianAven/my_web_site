@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
 import './header.css'
 import my_photo from '../../assets/my_photo.jpg'
 import MenuLink from '../menuLink/MenuLink'

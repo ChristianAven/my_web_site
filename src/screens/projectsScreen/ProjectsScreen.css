@@ -12,23 +12,23 @@
 }
 
 .tr_project {
-    border-bottom: 1px solid rgba(177, 177, 177, 0.596);
+    border-bottom: 1px solid var(--color-border-table);
 }
 
 .name_link {
-    color: #000000;
+    color: var(--color-label);
     text-decoration: none;
 }
 
 .name_link:hover {
-    color: rgb(189, 15, 15);
+    color: var(--color-hover-label);
     
 }
 
 .repository_icon {
-    color: rgb(68, 68, 68);
+    color: var(--color-icon-download);
 }
 
 .repository_icon:hover {
-    color: rgb(236, 11, 11);
+    color: var(--color-hover-label);
 }
