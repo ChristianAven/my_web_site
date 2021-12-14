@@ -19,7 +19,7 @@
 }
 
 .card_iten_nav:hover > .card_title_nav > h2 {
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .card_icon_nav {
@@ -52,6 +52,6 @@
 }
 
 .card_title_nav > h2 {
-    font-size: 20px;
+    font-size: 35px;
     transition: all 500ms;
 }

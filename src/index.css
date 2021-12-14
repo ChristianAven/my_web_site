@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
 
 :root {
-  --main-bg-color: #e9ebee;
-  --card-bg: #ffffff;
-  --color-primary: #1c407b;
-  --color-primary-hover: #0c57c7;
-  --color-label: #000000;
-  --color-label-secondary: white;
-  --color-hover-label: #BD0505;
-  --color-icon-download: #444444;
+
+  /* Colors */
+  --main-bg-color:                 #e9ebee;
+  --card-bg:                       #ffffff;
+  --color-primary:                 #1c407b;
+  --color-primary-hover:           #0c57c7;
+  --color-label:                   #000000;
+  --color-label-secondary:         white;
+  --color-hover-label:             #BD0505;
+  --color-icon-download:           #444444;
   --color-icon-download-container: #d1d1d185;
-  --color-border-table: #B1B1B1;
-  --color-border-div-light: rgba(163, 163, 163, 0.253);
-  --bg-gradient-primary: linear-gradient(to bottom, #79a6e9, #6294e4, #4a82de, #326fd7, #135dcf);;
+  --color-border-table:            #B1B1B1;
+  --color-border-div-light:        rgba(163, 163, 163, 0.253);
+  --bg-gradient-primary:             linear-gradient(to bottom, #79a6e9, #6294e4, #4a82de, #326fd7, #135dcf);;
   
   /* Shadows */
-  --color-shodow-primary: #bababa;
+  --color-shodow-primary:   #bababa;
   --color-shodow-secondary: #fcfcfc;
 
   /* Blur */
-  --blur-primary: blur(5px);
-  --blur-primary-hover: blur(15px);
-  --bg-card-blur: rgba(114, 114, 114, 0.219);
-  --bg-card-blur-hover: rgba(104, 104, 104, 0.171);
-  --color-label-blur: white;
+  --blur-primary:         blur(5px);
+  --blur-primary-hover:   blur(15px);
+  --bg-card-blur:       rgba(138, 138, 138, 0.164);
+  --bg-card-blur-hover: rgba(138, 138, 138, 0.308);
+  --color-label-blur:   white;
   
   /* social-networks colors */
   --color-link-instagram: #c734a0;
@@ -31,6 +33,11 @@
   --color-link-github:    #1b1e23;
   --color-link-twiter:    #1d9bf0;
   --color-link-mail:      #e34133;
+
+
+  /* Size */
+  --size-icon-contact: 30px;
+  --size-icon-contact-mediun: 25px
 }
 
 body {

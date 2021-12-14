@@ -14,4 +14,8 @@
     color: var(--color-primary);
 }
 
+.contact_linkedin {
+    position: absolute;
+    bottom: 20px;
+}
 

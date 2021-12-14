@@ -28,7 +28,7 @@ const HomeScreen = () => {
                     <p><strong>»</strong> I would very much like that in my next project to be surrounded by a team which can learn too much from them and do what I am passionate about, programming and learning new things every day!</p>
                 </div>
                 <div className='contact_linkedin'>
-                    <h4>More information in:</h4>
+                    <span>More information in:</span>
                     <a className='link_linkedin' href='https://www.linkedin.com/in/chris-aven/' target='_blank' rel="noreferrer"  ><i className="fab fa-linkedin"></i></a>
                     <a className='link_github' href='https://github.com/ChristianAven' target='_blank' rel="noreferrer" ><i className="fab fa-github"></i></a>
                 </div>
