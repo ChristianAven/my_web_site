@@ -8,6 +8,15 @@
     overflow: auto;
 }
 
+.card_dark_mode {
+    background-color: var(--card-bg-dark-mode);
+    border-radius: var(--boder-radius);
+    height: calc(100vh - 80px);
+    margin: 10px;
+    overflow: auto;
+    color: var(--color-primary-dark-mode);
+}
+
 .link_linkedin {
     
     font-size: var(--size-icon-contact);

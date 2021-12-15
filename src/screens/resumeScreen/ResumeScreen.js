@@ -1,21 +1,24 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import CardHeader from '../../components/cardHeader/CardHeader'
 import resume from '../../assets/cv.PNG'
 import './resumeScreen.css'
+import { DarkModeContext } from '../../context/DarkModeContext';
 
 
 const {default: skills} = require("../../assets/data/skills");
 
 const ResumeScreen = () => {
 
+    const {darkMode} = useContext(DarkModeContext)
+
     return (
-        <div className='animate__animated animate__zoomIn card'>
+        <div className={`animate__animated animate__zoomIn ${darkMode? "card_dark_mode" : "card"}`}>
             
             <CardHeader icon='fas fa-align-justify' title='My resume' />
             
             <div className='card_body'>
                 <div>
-                    <div className='card_resume'>
+                    <div className='card_resume' style={darkMode ? {boxShadow: "none", color: "#4b525d"} : {}}>
                         <div className='card_img'>
                             <div className='img' />
                             <div className='div_link'>

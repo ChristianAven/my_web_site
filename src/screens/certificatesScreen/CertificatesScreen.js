@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import react from '../../assets/react.PNG'
 import React_sockets from '../../assets/React-sockets.PNG' 
 import css from '../../assets/css.PNG' 
@@ -6,8 +6,11 @@ import git from '../../assets/Git.PNG'
 import react_native from '../../assets/react-native.PNG' 
 import scrum from '../../assets/scrum.PNG' 
 import './certificatesScreen.css'
+import { DarkModeContext } from '../../context/DarkModeContext'
 
 const CertificatesScreen = () => {
+
+    const {darkMode} = useContext(DarkModeContext)
 
     const data = [
         {
@@ -44,13 +47,13 @@ const CertificatesScreen = () => {
     ]
 
     return (
-        <div className='animate__animated animate__zoomIn card'>
+        <div className={`animate__animated animate__zoomIn ${darkMode? "card_dark_mode" : "card"}`}>
             <div className='certificates'>
                 {
                     data.map(({img, name, id}) => (
-                        <div className='card_certificate' key={id}>
-                            <div>
-                                <img className='img_certi' src={img}/>
+                        <div className='card_certificate' style={darkMode ? {boxShadow: "none", color: "#4b525d"} : {}} key={id}>
+                            <div style={{}}>
+                                <img className='img_certi' src={img} alt='Certificate'/>
                             </div>
                             <div className='title_download'>
                                 <div>

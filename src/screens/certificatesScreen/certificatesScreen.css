@@ -5,7 +5,7 @@
 
 .certificates {
     margin-left: calc(25% - 250px);
-    padding-top: 10px;
+    margin-top: 10px;
     column-count: 3;
     column-gap: calc(25% - 250px);
 }
@@ -17,10 +17,10 @@
     box-shadow:  6px 6px 6px var(--color-shodow-primary), -6px -6px 6px var(--color-shodow-secondary);
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 260px;
     justify-content: flex-start;
     margin-bottom: 40px;
-    margin-top: 10px;
+    margin-top: 0px;
     overflow: hidden;
     width: 250px;
 }

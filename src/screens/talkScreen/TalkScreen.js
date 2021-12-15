@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import CardHeader from '../../components/cardHeader/CardHeader'
+import { DarkModeContext } from '../../context/DarkModeContext';
 import './talkScreen.css';
 
 const TalkScreen = () => {
+
+    const {darkMode} = useContext(DarkModeContext)
+
     return (
-        <div className='animate__animated animate__zoomIn card'>
+        <div className={`animate__animated animate__zoomIn ${darkMode? "card_dark_mode" : "card"}`}>
             <CardHeader icon='far fa-comment-dots' title="Let's talk" />
             <div className='card_body'>
                 <div className='socialNetworks'>

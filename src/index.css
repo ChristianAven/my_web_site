@@ -19,7 +19,7 @@
   /* Shadows */
   --color-shodow-primary:   #bababa;
   --color-shodow-secondary: #fcfcfc;
-
+  
   /* Blur */
   --blur-primary:         blur(5px);
   --blur-primary-hover:   blur(15px);
@@ -33,11 +33,20 @@
   --color-link-github:    #1b1e23;
   --color-link-twiter:    #1d9bf0;
   --color-link-mail:      #e34133;
-
-
+  
+  
   /* Size */
   --size-icon-contact: 30px;
-  --size-icon-contact-mediun: 25px
+  --size-icon-contact-mediun: 25px;
+  
+  
+  /* Dark Mode true */
+  --main-bg-color-dark-mode:     #252a32;
+  --color-primary-dark-mode:     #ffffff;
+  --color-label-dark-mode:       #a7adb4;
+  --card-bg-dark-mode:           #4b525d;
+  --bg-gradient-primary-dark-mode: linear-gradient(to bottom, #4d5560, #424953, #373d46, #2c323a, #22272e);
+
 }
 
 body {

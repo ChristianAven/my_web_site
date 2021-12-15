@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { VerticalTimelineElement } from 'react-vertical-timeline-component'
+import { DarkModeContext } from '../../context/DarkModeContext'
 import './VerticalItemTimeLine.css'
 
 const VerticalItemTimeLine = ({ date, icon, title, subTitle, textBody }) => {
+
+    const {darkMode} = useContext(DarkModeContext)
+
     return (
         <VerticalTimelineElement
-            contentStyle={{ background: 'white', color: 'black', border: '3px solid #0a66c2' }}
+            contentStyle={darkMode ? {background: '#4b525d', color: 'white', border: '3px solid #252a32' } : { background: 'white', color: 'black', border: '3px solid #0a66c2' }}
             contentArrowStyle={{ borderRight: '7px solid  #0a66c2' }}
             date={date}
-            dateClassName={"date_element"}
-            iconStyle={{ color: 'black', border: '3px solid #0a66c2', backgroundColor: 'white' }}
+            dateClassName={ darkMode ? "date_element_dark_mode" : "date_element"}
+            iconStyle={ darkMode ? { color: 'black', border: '3px solid #252a32', backgroundColor: '#a7adb4' } : { color: 'black', border: '3px solid #0a66c2', backgroundColor: 'white' }}
             icon={icon}
             iconClassName={"icon_element"}
             >

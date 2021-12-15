@@ -2,6 +2,10 @@
     color: black;
 }
 
+.date_element_dark_mode {
+    color: var(--color-primary-dark-mode);
+}
+
 .icon_element {
     display: flex;
     align-self: center;

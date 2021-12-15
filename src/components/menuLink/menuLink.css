@@ -3,6 +3,11 @@
     border-radius: 10px;
 }
 
+.active-dark-mode {
+    background-color: var(--color-label-dark-mode);
+    border-radius: 10px;
+}
+
 .link {
     text-decoration-line: none;
     margin-top: 10px;
@@ -19,8 +24,23 @@
     padding: 5px 0px 5px 0px;
 }
 
+.item_link_dark_mode {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 0px 5px 0px;
+}
+
 .item_link:hover{
     background-color: var(--color-primary-hover);
+}
+
+.item_link_dark_mode:hover{
+    background-color: var(--color-label-dark-mode);
 }
 
 .item_link_title {

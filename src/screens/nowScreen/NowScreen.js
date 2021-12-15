@@ -1,17 +1,21 @@
-import React from 'react'
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import React, { useContext } from 'react'
+import { VerticalTimeline }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import CardHeader from '../../components/cardHeader/CardHeader'
 import VerticalItemTimeLine from '../../components/verticalItemTimeLine/VerticalItemTimeLine';
+import { DarkModeContext } from '../../context/DarkModeContext';
 import './nowScreen.css'
 
 const NowScreen = () => {
+
+    const {darkMode} = useContext(DarkModeContext)
+
     return (
-        <div className='animate__animated animate__zoomIn card'>
+        <div className={`animate__animated animate__zoomIn ${darkMode? "card_dark_mode" : "card"}`}>
             <CardHeader icon='fas fa-user-tie' title='What am I doing now?'/>
 
             <div>
-                <VerticalTimeline lineColor='#0a66c2' >
+                <VerticalTimeline lineColor={darkMode ? "#252a32" : "#0a66c2"} >
                     
                     <VerticalItemTimeLine 
                         date={"Present - 2021/December"} 
