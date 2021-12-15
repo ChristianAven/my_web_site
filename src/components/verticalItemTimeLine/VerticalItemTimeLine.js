@@ -10,7 +10,7 @@ const VerticalItemTimeLine = ({ date, icon, title, subTitle, textBody }) => {
     return (
         <VerticalTimelineElement
             contentStyle={darkMode ? {background: '#4b525d', color: 'white', border: '3px solid #252a32' } : { background: 'white', color: 'black', border: '3px solid #0a66c2' }}
-            contentArrowStyle={{ borderRight: '7px solid  #0a66c2' }}
+            contentArrowStyle={darkMode ? { borderRight: '7px solid  #252a32' } : { borderRight: '7px solid  #0a66c2' }}
             date={date}
             dateClassName={ darkMode ? "date_element_dark_mode" : "date_element"}
             iconStyle={ darkMode ? { color: 'black', border: '3px solid #252a32', backgroundColor: '#a7adb4' } : { color: 'black', border: '3px solid #0a66c2', backgroundColor: 'white' }}
